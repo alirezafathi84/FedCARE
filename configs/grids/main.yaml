@@ -1,0 +1,14 @@
+# Experiments reported in the paper:  python scripts/run_grid.py configs/grids/main.yaml
+blocks:
+  - name: main
+    settings: [blood-shift, derma]
+    methods: [fedavg, fedprox, scaffold, fednova, moon, fedrs, fedlc, fedcare]
+    seeds: [0, 1, 2]
+  - name: ablation
+    settings: [blood-shift, derma]
+    variants:
+      fedcare-noCAH:  {method: fedcare, hp: {class_aware_head: false}}
+      fedcare-noPC:   {method: fedcare, hp: {tau_la: 0.0}}
+      fedcare+align:  {method: fedcare, hp: {beta: 0.5, rank: 4}}
+      fedcare+proto:  {method: fedcare, hp: {beta: 0.5, prior_rank: 0}}
+    seeds: [0, 1, 2]

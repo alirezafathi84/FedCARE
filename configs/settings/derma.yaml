@@ -1,0 +1,8 @@
+# DermaMNIST (HAM10000): naturally long-tailed classes + Dirichlet label skew.
+name: derma
+partition: dirichlet
+dataset: dermamnist
+num_clients: 10
+alpha: 0.3
+n_train: 4000
+n_val: null

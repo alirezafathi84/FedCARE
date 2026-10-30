@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying paper."
+title: "FedCARE: Class-Aware Recalibration for Federated Medical Image Classification under Label Skew and Acquisition Shift"
+authors:
+  - family-names: Fathi
+    given-names: Alireza
+    affiliation: "Dept. Computer Engineering, NT.C., Islamic Azad University, Tehran, Iran"
+  - family-names: Boostani
+    given-names: Reza
+    affiliation: "CSE&IT Dept., ECE School, Shiraz University, Shiraz, Iran"
+  - family-names: Hosseini
+    given-names: Rahil
+    affiliation: "Dept. Computer Engineering, Islamic Azad University, ShQ.C., Tehran, Iran"
+  - family-names: Mohammed
+    given-names: Mazin Abed
+    affiliation: "Dept. Computer Science, University of Anbar, Ramadi, Iraq"
+version: 1.2.0
+message: "If you use this code, please cite the accompanying paper."
+title: "FedCARE: Class-Aware Recalibration for Federated Medical Image Classification under Label Skew and Acquisition Shift"
+authors:
+  - family-names: Fathi
+    given-names: Alireza
+    affiliation: "Department of Computer Engineering, NT.C., Islamic Azad University, Tehran, Iran"
+version: 1.0.0
+license: MIT

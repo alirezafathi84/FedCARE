@@ -1,0 +1,10 @@
+# Additional settings for GPU-scale replication (not part of the CPU study).
+blocks:
+  - name: external-centre
+    settings: [path-stain]
+    methods: [fedavg, fedprox, scaffold, fednova, moon, fedrs, fedlc, fedcare]
+    seeds: [0, 1, 2, 3, 4]
+  - name: natural-domains
+    settings: [organ-views]
+    methods: [fedavg, fedprox, scaffold, fednova, moon, fedrs, fedlc, fedcare]
+    seeds: [0, 1, 2, 3, 4]

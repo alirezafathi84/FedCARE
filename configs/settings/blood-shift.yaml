@@ -1,0 +1,10 @@
+# BloodMNIST: severe label skew + per-site staining/illumination/optics shift.
+name: blood-shift
+partition: dirichlet
+dataset: bloodmnist
+num_clients: 10
+alpha: 0.1
+n_train: 4000
+n_val: 1000
+site_shift: od
+shift_strength: 1.0

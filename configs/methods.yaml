@@ -1,0 +1,10 @@
+# Hyper-parameters: defaults recommended by the original papers.
+# FedCARE has no tuned hyper-parameter (tau_la = 1 is the Bayes-optimal prior correction).
+fedavg:   {}
+fedprox:  {mu: 0.01}
+scaffold: {}
+fednova:  {}
+moon:     {mu: 1.0, temperature: 0.5}
+fedrs:    {alpha: 0.5}
+fedlc:    {tau: 1.0}
+fedcare:  {tau_la: 1.0}

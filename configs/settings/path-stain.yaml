@@ -1,0 +1,12 @@
+# PathMNIST: severe label skew + simulated per-site H&E stain/optics shift.
+# Clients hold NCT-CRC-HE-100K patches; the official test split (CRC-VAL-HE-7K)
+# comes from a different clinical centre, i.e. a real external-site evaluation.
+name: path-stain
+partition: dirichlet
+dataset: pathmnist
+num_clients: 10
+alpha: 0.1
+n_train: 4000
+n_val: 1000
+site_shift: stain
+shift_strength: 1.0

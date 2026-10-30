@@ -1,0 +1,9 @@
+# OrganA/C/SMNIST: three CT imaging planes as naturally shifted domains.
+name: organ-views
+partition: multidomain
+domains: [organamnist, organcmnist, organsmnist]
+clients_per_domain: 3
+alpha: 0.3
+n_train_per_domain: 1400
+n_val_per_domain: 400
+n_test_per_domain: 2000

@@ -1,0 +1,14 @@
+# Default training protocol (identical for every method)
+model: cnn            # cnn (compact, edge-sized) | resnet18 (GPU-scale)
+width: 16
+rounds: 25
+local_epochs: 1
+batch_size: 32
+lr: 0.05
+momentum: 0.9
+weight_decay: 0.0005
+participation: 1.0    # fraction of clients sampled per round
+eval_every: 5
+test_subsample: 2000  # intermediate evaluations only; final metrics use the full test sets
+channels_last: true
+threads: 1
